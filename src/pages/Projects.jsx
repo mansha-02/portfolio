@@ -8,7 +8,7 @@ import edu from "../assets/projects/edumate.png";
 import news from "../assets/projects/newspop.png";
 import bot from "../assets/projects/smartbot.png";
 import text from "../assets/projects/texted.png";
-
+import { AiFillGithub } from "react-icons/ai";
 const Projects = () => {
   return (
     <Container fluid className="project-section">
@@ -18,7 +18,6 @@ const Projects = () => {
           Here are a few<strong className="yellow"> projects </strong> I've
           worked on recently.
         </h1>
-        
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -80,6 +79,17 @@ const Projects = () => {
             />
           </Col>
         </Row>
+        <h2 className="yellow"> Visit my Github for more : </h2>
+        <span>
+          <a
+            href="https://github.com/mansha-02"
+            target="_blank"
+            rel="noreferrer"
+            className="icon-color  contact-social-icons"
+          >
+            <AiFillGithub />
+          </a>
+        </span>
       </Container>
     </Container>
   );
