@@ -9,6 +9,7 @@ import news from "../assets/projects/newspop.png";
 import bot from "../assets/projects/smartbot.png";
 import text from "../assets/projects/texted.png";
 import { AiFillGithub } from "react-icons/ai";
+import exp from "../assets/projects/exp.png";
 const Projects = () => {
   return (
     <Container fluid className="project-section">
@@ -36,6 +37,16 @@ const Projects = () => {
               title="Multi-functional Bot"
               description="SmartBot is a MERN stack-based multi-functional bot designed to enhance user experience and automate tasks. It features text summarization, AI-powered paragraph generation, a real-time chatbot, an English-to-JavaScript code converter, and sci-fi image generation. With dark mode and responsive design, it delivers a seamless and engaging user experience."
               ghLink="https://github.com/mansha-02/smart-bot"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={exp}
+              isBlog={false}
+              title="Expense Tracker"
+              description="It is a full-stack web application designed to help users manage their finances with ease and clarity. It features secure JWT-based authentication, categorized income and expense tracking, and historical insights with persistent data storage. The platform enables intuitive financial understanding through real-time data visualizations, including pie and line charts, allowing users to quickly identify spending patterns and make informed decisions."
+              ghLink="https://github.com/mansha-02/expense-tracker"
             />
           </Col>
 
