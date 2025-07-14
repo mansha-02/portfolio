@@ -70,15 +70,7 @@ const Projects = () => {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={dict}
-              isBlog={false}
-              title="Dictionary"
-              description="A lightning-fast, responsive, and user-friendly dictionary web application powered by Vite, Sass, and JavaScript. This app allows users to search for word definitions, synonyms, and examples, providing a clean and user-friendly interface. Optimized for fast performance and modern web standards."
-              ghLink="https://github.com/mansha-02/dictionary"
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
