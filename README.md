@@ -1,1 +1,1 @@
-View - https://mansha-portfolio.netlify.app/
+View - https://manshaportfolio.netlify.app/
