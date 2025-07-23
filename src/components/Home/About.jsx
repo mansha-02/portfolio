@@ -7,7 +7,7 @@ import {
   
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+import { SiLeetcode , SiGeeksforgeeks } from "react-icons/si";
 
 
 
@@ -17,7 +17,6 @@ const About = () => {
         <Container>
           <Row>
             <Col md={8} className="home-about-description">
-    
               <p className="home-about-body">
                 As a<b className="yellow"> Full-Stack </b>developer, I love
                 tackling real-world problems and creating products that blend
@@ -87,6 +86,17 @@ const About = () => {
                     aria-label="instagram"
                   >
                     <SiLeetcode />
+                  </a>
+                </li>
+                <li className="social-icons">
+                  <a
+                    href="https://www.geeksforgeeks.org/user/mansha02/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour home-social-icons"
+                    aria-label="gfg"
+                  >
+                    <SiGeeksforgeeks />
                   </a>
                 </li>
               </ul>

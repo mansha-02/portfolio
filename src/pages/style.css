@@ -1,0 +1,21 @@
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.vertical-timeline-element-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.vertical-timeline-element-subtitle {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #d1d1d1;
+    font-family: 'Poppins', sans-serif;
+}

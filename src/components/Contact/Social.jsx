@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
-import './Social.css'
+import { SiLeetcode, SiGeeksforgeeks } from "react-icons/si"; // ✅ GFG icon added
+import "./Social.css";
 
 const Social = () => {
   return (
@@ -47,11 +45,21 @@ const Social = () => {
                 <SiLeetcode />
               </a>
             </li>
+            <li className="contact-icons">
+              <a
+                href="https://auth.geeksforgeeks.org/user/mansha02/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-color contact-social-icons"
+              >
+                <SiGeeksforgeeks />
+              </a>
+            </li>
           </ul>
         </Col>
       </Row>
     </Container>
   );
-}
+};
 
-export default Social
+export default Social;

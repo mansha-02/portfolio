@@ -5,7 +5,7 @@ import {
  
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+import { SiLeetcode , SiGeeksforgeeks } from "react-icons/si";
 
 
 const Footer = () => {
@@ -52,6 +52,17 @@ const Footer = () => {
                   aria-label="leetcode"
                 >
                   <SiLeetcode />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.geeksforgeeks.org/user/mansha02/"
+                  style={{ color: "white" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="gfg"
+                >
+                  <SiGeeksforgeeks />
                 </a>
               </li>
             </ul>
