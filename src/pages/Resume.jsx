@@ -15,8 +15,8 @@ const Experience = () => {
   return (
     <section id="experience">
       <Container>
-        <h1 className="section-title mt-40"></h1>
-        <VerticalTimeline lineColor="#AE944F">
+        
+        <VerticalTimeline lineColor="#AE944F" className="mt-5">
           {experienceData.map((work, i) => (
             <VerticalTimelineElement
               key={i}
